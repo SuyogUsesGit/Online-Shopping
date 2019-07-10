@@ -17,8 +17,8 @@ public class WelcomeServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         ServletProjectService service = new ServletProjectServiceImpl();
 
-//        int userID = (Integer) request.getSession().getAttribute("userId");
-            
+        Integer userId = (Integer) request.getSession().getAttribute("userId");
+
         List<Item> items = service.getItems();
 
         int quantity = 0;
@@ -35,5 +35,8 @@ public class WelcomeServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        Integer userId = (Integer) request.getSession().getAttribute("userId");
+        if(null == userId) response.sendRedirect("index.jsp");
+        else response.sendRedirect("welcome.jsp");
     }
 }

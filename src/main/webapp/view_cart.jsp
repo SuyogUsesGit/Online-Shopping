@@ -72,6 +72,8 @@
     function noBack() { window.history.forward(); }
 
 </script>
-
+<%
+    if((session.getAttribute("userId") == null)) response.sendRedirect("index.jsp");
+%>
 </body>
 </html>

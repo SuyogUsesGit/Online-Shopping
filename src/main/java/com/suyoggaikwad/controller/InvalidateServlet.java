@@ -10,11 +10,14 @@ import java.io.IOException;
 @WebServlet(name = "InvalidateServlet")
 public class InvalidateServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         request.getSession().invalidate();
         response.sendRedirect("index.jsp");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        Integer userId = (Integer) request.getSession().getAttribute("userId");
+        if(null == userId) response.sendRedirect("index.jsp");
+        else response.sendRedirect("welcome.jsp");
     }
 }

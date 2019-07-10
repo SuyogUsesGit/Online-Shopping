@@ -70,6 +70,7 @@
     if(msg.charAt(0) == 'S') document.getElementById("table1").style.visibility = "hidden";
 
     function myFunc(value, quantity, price, x) {
+        if(value == "") { value = 0; document.getElementById("ip4_" + x).value = 0 }
         if(value > quantity) { document.getElementById("ip4_" + x).value = quantity; value = quantity; }
         if(value < 0) { document.getElementById("ip4_" + x).value = 0; value = 0; }
         document.getElementById("ip5_" + x).value = Math.round(Math.trunc(value) * price * 100) / 100;
@@ -84,5 +85,9 @@
     function noBack() { window.history.forward(); }
 </script>
 
+<%
+    if((session.getAttribute("userId") == null)) response.sendRedirect("index.jsp");
+
+%>
 </body>
 </html>

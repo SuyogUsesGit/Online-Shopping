@@ -22,8 +22,8 @@ public class CartServlet extends HttpServlet {
 
         List<Cart> cartList = new ArrayList<>();
         int x = 0;
-        int userId = (Integer) request.getSession().getAttribute("userId");
 
+        Integer userId = (Integer) request.getSession().getAttribute("userId");
 
 
         while(request.getParameter("ip4_" + ++x) != null) {
@@ -45,6 +45,9 @@ public class CartServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        Integer userId = (Integer) request.getSession().getAttribute("userId");
+        if(null == userId) response.sendRedirect("index.jsp");
+        else response.sendRedirect("view_cart.jsp");
 
     }
 }

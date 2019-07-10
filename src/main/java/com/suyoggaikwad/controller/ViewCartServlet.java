@@ -17,7 +17,8 @@ public class ViewCartServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         ServletProjectService service = new ServletProjectServiceImpl();
 
-        int userId = (Integer) request.getSession().getAttribute("userId");
+        Integer userId = (Integer) request.getSession().getAttribute("userId");
+
         List<Cart> carts = service.checkCartForUser(userId);
 
         if(!carts.isEmpty()) {
@@ -32,7 +33,9 @@ public class ViewCartServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        Integer userId = (Integer) request.getSession().getAttribute("userId");
+        if(null == userId) response.sendRedirect("index.jsp");
+        else response.sendRedirect("view_cart.jsp");
 
     }
 }

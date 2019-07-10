@@ -1,3 +1,5 @@
+<%@ page import="com.suyoggaikwad.model.Cart" %>
+<%@ page import="java.util.*" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
@@ -67,5 +69,12 @@
     function noBack() { window.history.forward(); }
 
 </script>
+<%
+    if((session.getAttribute("userId") == null)) response.sendRedirect("index.jsp");
+    else {
+        List<Cart> list = (List<Cart>) request.getAttribute("itemsList");
+        if(null == list) response.sendRedirect("view_cart.jsp");
+    }
+%>
 </body>
 </html>

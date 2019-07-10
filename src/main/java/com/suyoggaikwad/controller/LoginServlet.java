@@ -35,6 +35,8 @@ public class LoginServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        Integer userId = (Integer) request.getSession().getAttribute("userId");
+        if(null != userId) response.sendRedirect("welcome.jsp");
+        else response.sendRedirect("index.jsp");
     }
 }

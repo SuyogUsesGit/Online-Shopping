@@ -31,6 +31,8 @@
     }
 </script>
 
-
+<%
+    if((session.getAttribute("userId") != null)) response.sendRedirect("welcome.jsp");
+%>
 </body>
 </html>
