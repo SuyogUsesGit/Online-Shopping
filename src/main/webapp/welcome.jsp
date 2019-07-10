@@ -26,6 +26,14 @@
         #lgout {
             float: right;
         }
+        .total {
+            margin-left: 70%;
+        }
+        #total {
+            text-align: left;
+            padding-left: 3%;
+        }
+
     </style>
 </head>
 <body onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
@@ -56,6 +64,9 @@
     </table>
 
     <br><br>
+    <div class="total">
+        <b>Total:</b><input id="total" name="total" value="0" readonly><br><br>
+    </div>
     <input type="submit" value="Update Cart"> <br><br>
     <input type="submit" value="View Cart" onclick="cartBtn2()">
 
@@ -74,6 +85,13 @@
         if(value > quantity) { document.getElementById("ip4_" + x).value = quantity; value = quantity; }
         if(value < 0) { document.getElementById("ip4_" + x).value = 0; value = 0; }
         document.getElementById("ip5_" + x).value = Math.round(Math.trunc(value) * price * 100) / 100;
+
+        y = 1; sum = 0;
+        while(y < <%= x+1 %>) {
+            sum += parseFloat(document.getElementById("ip5_" + y).value);
+            y++;
+        }
+        document.getElementById("total").value =  Math.round(sum * 100) / 100;
     }
 
 

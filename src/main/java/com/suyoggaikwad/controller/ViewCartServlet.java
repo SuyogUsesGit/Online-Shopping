@@ -24,6 +24,9 @@ public class ViewCartServlet extends HttpServlet {
         if(!carts.isEmpty()) {
             request.getSession().setAttribute("cartContentsMsg", "Your cart contains following items!");
             request.getSession().setAttribute("viewCartItemsList", carts);
+            double total = 0;
+            for(Cart cart: carts) total += cart.getItem().getPrice();
+            request.getSession().setAttribute("totalAmount", Math.round(total * 100.0) / 100.0);
         } else {
             request.getSession().setAttribute("cartContentsMsg", "Your cart is Empty! Continue Shopping.");
         }

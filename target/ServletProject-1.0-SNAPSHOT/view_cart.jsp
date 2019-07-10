@@ -23,6 +23,14 @@
         #lgout {
             float: right;
         }
+        .total {
+            margin-left: 40%;
+        }
+        #total {
+            text-align: left;
+            padding-left: 3%;
+        }
+
     </style>
 </head>
 <body onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
@@ -46,6 +54,9 @@
     </c:forEach>
 </table><br><br>
 
+    <div class="total">
+        <b id="myBold">Total:</b><input id="total" name="total" value="${totalAmount}" readonly><br><br>
+    </div>
 
     <input id="btn1" type="button" value="Continue Shopping" onclick="myFunc(this.id)"><br><br>
     <input id="btn2" type="button" value="Checkout" onclick="myFunc(this.id)"><br><br>
@@ -59,6 +70,8 @@
     if(msg.charAt(msg.length - 1) == '.')  {
         document.getElementById("table1").style.visibility = "hidden";
         document.getElementById("btn2").style.visibility = "hidden";
+        document.getElementById("myBold").style.visibility = "hidden";
+        document.getElementById("total").style.visibility = "hidden";
     }
 
     function myFunc(val) {

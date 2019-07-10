@@ -27,6 +27,14 @@
         #lgout {
             float: right;
         }
+        .total {
+            margin-left: 14%;
+        }
+        #total {
+            text-align: left;
+            padding-left: 3%;
+            font-size: 110%;
+        }
     </style>
 </head>
 <body onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
@@ -52,6 +60,10 @@
     </c:forEach>
 </table><br><br>
 
+<div class="total">
+    <h2 id="h2_2">Total: <input id="total" name="total" value="${totalAmount}" readonly></h2><br><br>
+</div><br><br>
+
 <form method="post" action="/WelcomeServlet">
     <input type="submit" value="Continue Shopping"><br><br>
 </form>
@@ -62,6 +74,8 @@
     if(msg.charAt(msg.length - 1) == '.') {
         document.getElementById("h2_1").style.visibility = "hidden";
         document.getElementById("table1").style.visibility = "hidden";
+        document.getElementById("h2_2").style.visibility = "hidden";
+        document.getElementById("total").style.visibility = "hidden";
         document.getElementById("h1_1").style.color = "red";
     } else {
         document.getElementById("h1_1").style.color = "green";
