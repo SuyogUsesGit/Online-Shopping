@@ -35,7 +35,7 @@ public class ViewCartServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Integer userId = (Integer) request.getSession().getAttribute("userId");
         if(null == userId) response.sendRedirect("index.jsp");
-        else response.sendRedirect("view_cart.jsp");
+        else response.sendRedirect("welcome.jsp");
 
     }
 }

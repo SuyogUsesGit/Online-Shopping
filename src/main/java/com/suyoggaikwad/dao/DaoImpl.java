@@ -97,7 +97,6 @@ public class DaoImpl implements Dao{
             statement.executeUpdate("delete from cart where user_id = " + userId);
 
             for (Cart cart: carts) {
-                System.out.println("inside dao");
                 statement.executeUpdate("insert into cart values(" + cart.getUserId() + ", '" + cart.getItem().getName() + "', " + cart.getItem().getQuantity() + ", " + cart.getItem().getPrice() + ")");
             }
 

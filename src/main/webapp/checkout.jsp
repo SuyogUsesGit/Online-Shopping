@@ -1,5 +1,7 @@
 <%@ page import="com.suyoggaikwad.model.Cart" %>
 <%@ page import="java.util.*" %>
+<%@ page import="com.suyoggaikwad.service.ServletProjectService" %>
+<%@ page import="com.suyoggaikwad.service.ServletProjectServiceImpl" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
@@ -71,10 +73,7 @@
 </script>
 <%
     if((session.getAttribute("userId") == null)) response.sendRedirect("index.jsp");
-    else {
-        List<Cart> list = (List<Cart>) request.getAttribute("itemsList");
-        if(null == list) response.sendRedirect("view_cart.jsp");
-    }
+    if(request.getAttribute("checkoutMsg") == null) response.sendRedirect("welcome.jsp");
 %>
 </body>
 </html>

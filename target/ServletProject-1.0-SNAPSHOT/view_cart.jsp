@@ -62,7 +62,7 @@
     }
 
     function myFunc(val) {
-        if (val == "btn1") document.getElementById("frm").action = "welcome.jsp";
+        if (val == "btn1") document.getElementById("frm").action = "/WelcomeServlet";
         if (val == "btn2") document.getElementById("frm").action = "/CheckoutServlet";
         document.getElementById("frm").submit();
 
@@ -72,6 +72,8 @@
     function noBack() { window.history.forward(); }
 
 </script>
-
+<%
+    if((session.getAttribute("userId") == null)) response.sendRedirect("index.jsp");
+%>
 </body>
 </html>

@@ -1,3 +1,7 @@
+<%@ page import="com.suyoggaikwad.model.Cart" %>
+<%@ page import="java.util.*" %>
+<%@ page import="com.suyoggaikwad.service.ServletProjectService" %>
+<%@ page import="com.suyoggaikwad.service.ServletProjectServiceImpl" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
@@ -25,7 +29,6 @@
         }
     </style>
 </head>
-<body>
 <body onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
 <form action="/InvalidateServlet" method="post">
     <input id="lgout" type="submit" value="Logout">
@@ -57,7 +60,7 @@
     msg = "${checkoutMsg}";
 
     if(msg.charAt(msg.length - 1) == '.') {
-        document.getElementById("h2_1").style.visibility = "hidden"
+        document.getElementById("h2_1").style.visibility = "hidden";
         document.getElementById("table1").style.visibility = "hidden";
         document.getElementById("h1_1").style.color = "red";
     } else {
@@ -68,5 +71,9 @@
     function noBack() { window.history.forward(); }
 
 </script>
+<%
+    if((session.getAttribute("userId") == null)) response.sendRedirect("index.jsp");
+    if(request.getAttribute("checkoutMsg") == null) response.sendRedirect("welcome.jsp");
+%>
 </body>
 </html>
