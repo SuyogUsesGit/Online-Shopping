@@ -20,12 +20,10 @@ public class CartServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         ServletProjectService service = new ServletProjectServiceImpl();
 
-        List<Cart> cartList = new ArrayList<>();
-        int x = 0;
-
         Integer userId = (Integer) request.getSession().getAttribute("userId");
 
-
+        List<Cart> cartList = new ArrayList<>();
+        int x = 0;
         while(request.getParameter("ip4_" + ++x) != null) {
             int quantityEntered = Integer.parseInt(request.getParameter("ip4_" + x));
             if(quantityEntered == 0) continue;

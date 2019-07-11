@@ -21,14 +21,10 @@ public class WelcomeServlet extends HttpServlet {
 
         List<Item> items = service.getItems();
 
-        int quantity = 0;
-        if(!items.isEmpty())  for(Item item: items)  quantity+=item.getQuantity();
-
-        if(quantity > 0) {
+        if(!items.isEmpty())  {
             request.getSession().setAttribute("availabilityMsg", "What would you like to buy today?");
             request.getSession().setAttribute("itemsList", items);
-        }
-        else request.getSession().setAttribute("availabilityMsg", "Sorry! We are currently out of stock.");
+        }  else request.getSession().setAttribute("availabilityMsg", "Sorry! We are currently out of stock.");
 
         request.getRequestDispatcher("welcome.jsp").forward(request, response);
 

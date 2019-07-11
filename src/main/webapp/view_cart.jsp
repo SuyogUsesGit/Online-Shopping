@@ -37,7 +37,7 @@
 <form action="/InvalidateServlet" method="post">
     <input id="lgout" type="submit" value="Logout">
 </form>
-<h2>${cartContentsMsg}</h2>
+<h2 id="h2_1">${cartContentsMsg}</h2>
 
 <form id="frm" method="post">
 <table id="table1" border="2" cellpadding="10">
@@ -72,6 +72,7 @@
         document.getElementById("btn2").style.visibility = "hidden";
         document.getElementById("myBold").style.visibility = "hidden";
         document.getElementById("total").style.visibility = "hidden";
+        document.getElementById("h2_1").style.color = "red";
     }
 
     function myFunc(val) {

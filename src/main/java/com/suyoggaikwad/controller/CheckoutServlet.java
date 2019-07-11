@@ -20,12 +20,7 @@ public class CheckoutServlet extends HttpServlet {
         Integer userId = (Integer) request.getSession().getAttribute("userId");
         if(null == userId) response.sendRedirect("index.jsp");
 
-
-        List<Cart> cartList = service.checkCartForUser(userId);
-
-        List<Cart> checkoutCart = service.checkout(cartList, userId);
-
-        if(!checkoutCart.isEmpty()) request.setAttribute("checkoutMsg", "Thank you for shopping with us!");
+        if(service.checkout(userId)) request.setAttribute("checkoutMsg", "Thank you for shopping with us!");
         else request.setAttribute("checkoutMsg", "Sorry! We cannot process your cart as some of the requested items from your cart are no longer available.");
 
         request.getRequestDispatcher("checkout.jsp").forward(request, response);

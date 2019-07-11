@@ -37,7 +37,7 @@ public class ServletProjectServiceImpl implements ServletProjectService {
     }
 
     @Override
-    public List<Cart> checkout(List<Cart> carts, int userId) {
-        return dao.checkout(carts, userId);
+    public boolean checkout(int userId) {
+        return dao.checkout(userId);
     }
 }

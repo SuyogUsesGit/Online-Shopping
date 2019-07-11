@@ -65,9 +65,9 @@
 
     <br><br>
     <div class="total">
-        <b>Total:</b><input id="total" name="total" value="0" readonly><br><br>
+        <b id="b_1">Total:</b><input id="total" name="total" value="0" readonly><br><br>
     </div>
-    <input type="submit" value="Update Cart"> <br><br>
+    <input id="update-cart" type="submit" value="Update Cart"> <br><br>
     <input type="submit" value="View Cart" onclick="cartBtn2()">
 
 </form>
@@ -78,7 +78,12 @@
 
     var msg = "${availabilityMsg}";
 
-    if(msg.charAt(0) == 'S') document.getElementById("table1").style.visibility = "hidden";
+    if(msg.charAt(0) == 'S') {
+        document.getElementById("table1").style.visibility = "hidden";
+        document.getElementById("total").style.visibility = "hidden";
+        document.getElementById("b_1").style.visibility = "hidden";
+        document.getElementById("update-cart").style.visibility = "hidden";
+    }
 
     function myFunc(value, quantity, price, x) {
         if(value == "") { value = 0; document.getElementById("ip4_" + x).value = 0 }
@@ -86,10 +91,9 @@
         if(value < 0) { document.getElementById("ip4_" + x).value = 0; value = 0; }
         document.getElementById("ip5_" + x).value = Math.round(Math.trunc(value) * price * 100) / 100;
 
-        y = 1; sum = 0;
-        while(y < <%= x+1 %>) {
+        y = 0; sum = 0;
+        while(++y < <%= x+1 %>) {
             sum += parseFloat(document.getElementById("ip5_" + y).value);
-            y++;
         }
         document.getElementById("total").value =  Math.round(sum * 100) / 100;
     }
@@ -101,6 +105,7 @@
 
     window.history.forward();
     function noBack() { window.history.forward(); }
+
 </script>
 
 <%

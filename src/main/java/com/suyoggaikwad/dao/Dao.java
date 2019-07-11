@@ -16,5 +16,5 @@ public interface Dao {
 
     List<Cart> checkCartForUser(int userId);
 
-    List<Cart> checkout(List<Cart> carts, int userId);
+    boolean checkout(int userId);
 }

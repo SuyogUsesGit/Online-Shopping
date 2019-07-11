@@ -16,7 +16,8 @@ public class DaoImpl implements Dao{
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/servlet_project", "sqluser", "sqluser");
             Statement statement = conn.createStatement();
-            ResultSet rs = statement.executeQuery("select * from user");
+            ResultSet rs = statement.executeQuery("select * from user where username = " + "'" + userName + "' && password = " + "'" + password + "'");
+
             while (rs.next()) {
                 if(rs.getString("username").equals(userName) && rs.getString("password").equals(password)) return rs.getInt("id");
             }
@@ -66,7 +67,7 @@ public class DaoImpl implements Dao{
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/servlet_project", "sqluser", "sqluser");
             Statement statement = conn.createStatement();
-            ResultSet rs = statement.executeQuery("select * from item");
+            ResultSet rs = statement.executeQuery("select * from item where quantity > 0");
             while (rs.next()) {
                 Item item = new Item(rs.getString("name"), rs.getInt("quantity"), rs.getDouble("price"));
                 items.add(item);
@@ -146,7 +147,7 @@ public class DaoImpl implements Dao{
     }
 
     @Override
-    public List<Cart> checkout(List<Cart> carts, int userId) {
+    public boolean checkout(int userId) {
         Connection conn = null;
 
         try {
@@ -171,7 +172,7 @@ public class DaoImpl implements Dao{
                     if(quantityAvailable >= quantityRequired) {
                         int quantityRemaining = quantityAvailable - quantityRequired;
                         rsMap.put(s, quantityRemaining);
-                    } else return new ArrayList<>();
+                    } else return false;
                 }
             }
 
@@ -189,6 +190,6 @@ public class DaoImpl implements Dao{
             }
         }
 
-        return carts;
+        return true;
     }
 }
