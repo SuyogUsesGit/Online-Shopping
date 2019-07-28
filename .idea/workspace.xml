@@ -7,181 +7,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f76e51d6-0e52-4346-a306-477480c368d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/CartServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/CheckoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/CheckoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/ViewCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/ViewCartServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/WelcomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/WelcomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/dao/Dao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/dao/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/dao/DaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/service/ServletProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/service/ServletProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/service/ServletProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/service/ServletProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view_cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view_cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/checkout.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/META-INF/ServletProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/CartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/CheckoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/CheckoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/InvalidateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/InvalidateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/ViewCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/ViewCartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/WelcomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/controller/WelcomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/dao/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/dao/Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/dao/DaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/dao/DaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/model/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/model/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/service/ServletProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/service/ServletProjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/service/ServletProjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/classes/com/suyoggaikwad/service/ServletProjectServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletProject-1.0-SNAPSHOT/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ServletProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/CartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/CheckoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/CheckoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/InvalidateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/InvalidateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/ViewCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/ViewCartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/WelcomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/controller/WelcomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/dao/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/dao/Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/dao/DaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/dao/DaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/model/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/model/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/service/ServletProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/service/ServletProjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/service/ServletProjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyoggaikwad/service/ServletProjectServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/ViewCartServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="30" column="95" lean-forward="true" selection-start-line="30" selection-start-column="95" selection-end-line="30" selection-end-column="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/dao/DaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="192" column="19" selection-start-line="192" selection-start-column="19" selection-end-line="192" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/dao/Dao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/CheckoutServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/CartServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/service/ServletProjectService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/service/ServletProjectServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/checkout.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view_cart.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="74" column="60" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/welcome.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="102" column="66" lean-forward="true" selection-start-line="102" selection-start-column="66" selection-end-line="102" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/model/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/register.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/RegisterServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/model/Cart.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/success.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/InvalidateServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/ViewCartServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/checkout.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view_cart.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/WelcomeServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/dao/Dao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/dao/DaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/service/ServletProjectService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/service/ServletProjectServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/CheckoutServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/CartServlet.java" />
-      </list>
-    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -197,145 +111,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ServletProject Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="528" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
+  <component name="ProjectId" id="1OaKH0Gs8vvYOHhj8VplEGtqqdq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <hideEmptyPackages ProjectPane="false" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="suyoggaikwad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="suyoggaikwad" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="suyoggaikwad" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="suyoggaikwad" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="suyoggaikwad" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServletProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletProject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ServletProject Hibernate" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39117646" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -355,17 +141,77 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.21">
-    <configuration name="DaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suyoggaikwad.dao.DaoImpl" />
-      <module name="ServletProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.suyoggaikwad.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Glassfish" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.1" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ServletProject:war exploded">
+          <settings>
+            <option name="defaultContextRoot" value="false" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="true" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ServletProject:war exploded" />
+        </option>
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -514,14 +360,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DaoImpl" />
+      <item itemvalue="GlassFish Server.Glassfish" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.21" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.DaoImpl" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -535,252 +376,122 @@
       <updated>1562624143676</updated>
       <workItem from="1562624146620" duration="36685000" />
       <workItem from="1562699583019" duration="20186000" />
-      <workItem from="1562785917292" duration="20545000" />
+      <workItem from="1562785917292" duration="21324000" />
+      <workItem from="1562896592234" duration="1253000" />
+      <workItem from="1562994653627" duration="674000" />
+      <workItem from="1563039857340" duration="268000" />
+      <workItem from="1563141253332" duration="2004000" />
+      <workItem from="1563206944905" duration="24000" />
+      <workItem from="1563297532121" duration="196000" />
+      <workItem from="1563323149247" duration="29000" />
+      <workItem from="1563328479912" duration="549000" />
+      <workItem from="1563343002153" duration="317000" />
+      <workItem from="1563594501866" duration="6834000" />
+      <workItem from="1563606621915" duration="4000" />
+      <workItem from="1563608405870" duration="9756000" />
+      <workItem from="1563650428375" duration="16285000" />
+      <workItem from="1563680493329" duration="3606000" />
+      <workItem from="1563736404010" duration="414000" />
+      <workItem from="1563767747239" duration="3682000" />
+      <workItem from="1563813726940" duration="601000" />
+      <workItem from="1563839097948" duration="615000" />
+      <workItem from="1563860632832" duration="6083000" />
+      <workItem from="1564210178100" duration="1329000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80512000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976452" visible="true" weight="0.25799572" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.5023548" side_tool="true" weight="0.25266525" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30985916" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49729145" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/model/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="46" column="78" lean-forward="true" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/InvalidateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/RegisterServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/WelcomeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="102" column="66" lean-forward="true" selection-start-line="102" selection-start-column="66" selection-end-line="102" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/checkout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/dao/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/service/ServletProjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/service/ServletProjectServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view_cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="74" column="60" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/CartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/CheckoutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/controller/ViewCartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="30" column="95" lean-forward="true" selection-start-line="30" selection-start-column="95" selection-end-line="30" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suyoggaikwad/dao/DaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="192" column="19" selection-start-line="192" selection-start-column="19" selection-end-line="192" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39117646" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ServletProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39117646" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.protobuf:protobuf-java:3.6.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.39117646" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />

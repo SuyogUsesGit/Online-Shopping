@@ -1,6 +1,5 @@
 package com.suyoggaikwad.controller;
 
-import com.suyoggaikwad.model.Item;
 import com.suyoggaikwad.service.ServletProjectService;
 import com.suyoggaikwad.service.ServletProjectServiceImpl;
 
@@ -10,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 
 @WebServlet(name = "LoginServlet")
 public class LoginServlet extends HttpServlet {
@@ -25,6 +23,7 @@ public class LoginServlet extends HttpServlet {
             request.getSession().setAttribute("userId", userId);
             request.getSession().setAttribute("username", userName);
             request.getSession().setAttribute("password", password);
+            request.getSession().setAttribute("service", service);
             request.getRequestDispatcher("/WelcomeServlet").forward(request, response);
 
         } else {

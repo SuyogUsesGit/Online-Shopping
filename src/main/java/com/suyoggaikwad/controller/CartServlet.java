@@ -3,9 +3,7 @@ package com.suyoggaikwad.controller;
 import com.suyoggaikwad.model.Cart;
 import com.suyoggaikwad.model.Item;
 import com.suyoggaikwad.service.ServletProjectService;
-import com.suyoggaikwad.service.ServletProjectServiceImpl;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,7 +16,7 @@ import java.util.List;
 @WebServlet(name = "CartServlet")
 public class CartServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        ServletProjectService service = new ServletProjectServiceImpl();
+        ServletProjectService service = (ServletProjectService) request.getSession().getAttribute("service");
 
         Integer userId = (Integer) request.getSession().getAttribute("userId");
 

@@ -43,7 +43,7 @@
 
 <form id="frm" action="/CartServlet" method="post">
     <h1>Welcome ${username}</h1> <br><br>
-    <h2>${availabilityMsg} </h2>
+    <h2>${availabilityMsg}</h2>
     <table id="table1" border="2" cellpadding="10">
         <th>Item Name</th>
         <th>Quantity in Stock</th>
